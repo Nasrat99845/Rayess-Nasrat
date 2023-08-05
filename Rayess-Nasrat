@@ -132,18 +132,18 @@ logo=("""
 →   Facebook   :  Loy Rayess kabul
 →   Github     :  Nasrat99845
 →   Tools      :  RANDOM❤️‍🩹🇦🇫
-\33[1;37m----------------------------------------------""")
+\33[1;37m----------------------------------------------""')
 
 def lines():
-	print('\33[1;37m----------------------------------------------''''''''''')
-        print("""%s [%s•%s] s% TOOL NAME :
+	print('\33[1;37m----------------------------------------------''''''''''''''''')
+        print(''""%s [%s•%s] s% TOOL NAME :
 %s Super Speed Uid Cloning''%(G,R,G,B,G))
         print(''%s [%s•%s] s% VERSION  : 
 %s9.0''%(G,R,G,B,G))
 	    print(''%s [%s•%s] s% YOUR KEY :
 %s%s''(G,R,G,B,G,key))
          print(''%s [%s•%s] s%STATUS    :%s''%s(G,R,G,B,G,stat))
-         print('''')
+         print(""')
          print(''%s [%s01%s] s% CRACK RONDOM FBID 2009-11 %sV1[High Speed]%s(R,G,R,Y,G))
 
 loop = 0
